@@ -24,4 +24,18 @@
 12. Once files are added to index then they can be Commited to local repository using command
 	"git commit -m 'Adding commit to the local repository' "
 13. To commit all the files together at once in local repository use command "git commit -a".
-14. 
+
+
+Branches
+
+1. There are 2 types of branches: Local repository branches(on local repository) and remote-tracking branches(on github repository).
+2. To create branch at local repository use command : git branch "branch name"
+3. Use command "git checkout branchName" to switch from one branch to another.
+4. Whatever you commit to one branch is not visible to another branch unless you commit the same in that branch too.
+5. You have to do that again on second branch and then commit to it to see that change.
+6. Observation: If you are in one branch then entire directory structure of your folder changes to the one which is in that particular branch. 
+
+
+Merging
+
+1. 
