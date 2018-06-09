@@ -23,7 +23,7 @@
 11. If a folder is empty and newly added then it will not be added to index.
 12. Once files are added to index then they can be Commited to local repository using command
 	"git commit -m 'Adding commit to the local repository' "
-13. You can also use command "git commit -a -m 'Message'" to commit all files directly without having to use "git add ."" command first.
+13. You can also use command "git commit -a -m 'Message'" to commit all files directly without having to use "git add ." command first.
 14. To commit all the files together at once in local repository use command "git commit -a".
 
 
