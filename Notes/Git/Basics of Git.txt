@@ -1,0 +1,27 @@
+1. For every project you need to maintain a repository.
+2. ReadMe is the first file that is created.
+3. gitignore consists of files that you want to ignore while making push or pull. Like log files.
+4. First go to a folder of which you want to commit files.
+5. Then use command 'git init' to initialize this folder as your local repository.
+6. Eg. If you have files
+		Eg1.txt and Eg2.txt in folder FolderExp in your local machine and you want to upload it to repository named MyRepository then go to folder FolderExp and use command git init.
+
+7. Then use command : git remote add origin "URL of UserName/MyRepository"
+8. This will associate your local repository to github repository.
+9. Now use command 'git status' to check the status of your index. Index behaves as interface between your workspace 	and local repository. So whatever is not added in index but is present in your workspace it can be seen using git 	 status. The below example shows that whatever is not present in index is pointed out in :git status:
+   \*
+
+  Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Notes/Git/Basics of Git.txt 
+  
+        *\
+10. Use command "git add ." to add all the files to index or use git add "File names" to add particular files.
+	Command "git add -A" can also be used to add all the files at once.
+11. If a folder is empty and newly added then it will not be added to index.
+12. Once files are added to index then they can be Commited to local repository using command
+	"git commit -m 'Adding commit to the local repository' "
+13. To commit all the files together at once in local repository use command "git commit -a".
+14. 
