@@ -38,4 +38,5 @@ Branches
 
 Merging
 
-1. 
+1. Checkout to the branch that you want the code to merge to. Eg. if your production code is in master branch and you want to include extra code from another branch then checkout to master branch first.
+2. 
