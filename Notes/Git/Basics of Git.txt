@@ -43,3 +43,16 @@ Merging
 2. commit the changes that you have done in your commit branch first otherwise you won't be able to merge.
 3. use command "git merge firstBranch" if you want to merge the contents of firstBranch to master.
 4.
+
+
+Rebasing
+
+1. Used to put history of one branch on top of another.
+
+SSH key generation
+
+1. Use command ssh-keygen. Leave the passphrase blank.
+2. Then copy the entire key starting from ssh-
+3. Go to settings of your github account and click on 'SSH and GPG keys'.
+4. The click on add new key. give a name to ssh title.
+5. Paste the key generated from your git bash here. Save it.
