@@ -1,3 +1,2 @@
-
-These are basics of c from.
+These are basics of c from Master.
 These are basics of c from firstBranch.
