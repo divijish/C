@@ -26,6 +26,8 @@
 	"git commit -m 'Adding commit to the local repository' "
 13. You can also use command "git commit -a -m 'Message'" to commit all files directly without having to use "git add ." command first.
 14. To commit all the files together at once in local repository use command "git commit -a".
+15. To push your files to central repository use command: "git push origin master". Here origin is the url that you use while pulling the contents.
+16. Enter username and password of github and the changes will be pushed.
 
 
 Branches
