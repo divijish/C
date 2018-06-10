@@ -55,3 +55,6 @@ SSH key generation
 3. Go to settings of your github account and click on 'SSH and GPG keys'.
 4. The click on add new key. give a name to ssh title.
 5. Paste the key generated from your git bash here. Save it.
+6. Then come back to your terminal and type command: "ssh -T git@github.com"
+7. A success message will be displayed. 
+8. Go to github in ssh key section. On refreshing the key will change from grey to green. If this happens then you are successfully authenticated.
