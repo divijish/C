@@ -12,6 +12,7 @@
    \*
 
   Changes not staged for commit:
+
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
@@ -42,8 +43,6 @@ Merging
 1. Checkout to the branch that you want the code to merge to. Eg. if your production code is in master branch and you want to include extra code from another branch then checkout to master branch first.
 2. commit the changes that you have done in your commit branch first otherwise you won't be able to merge.
 3. use command "git merge firstBranch" if you want to merge the contents of firstBranch to master.
-4.
-
 
 Rebasing
 
