@@ -1,30 +1,6 @@
-
-helloworldy3oo9294oe
-y3oo9294oe
-y3oo9294oe
-y3oo9294oe
-178dig492hr9s
-178dig492hr9s
-178dig492hr9s
-178dig492hr9s
-178dig492hr9s
-q178dig492hr9su7j0w9h5y3oqa6e9r
-q178dig492hr9su7j0w9h5y3oqa6e9r
-q178dig492hr9su7j0w9h5y3oqa6e9r
-2y343q43697t98ht
-These are basics of c from Master.
-These are basics of c from firstBranch.
-2y343143697t98ht
-2y343q43697t98ht
-2y343q43697t98ht
-2y343q43697t98ht
-2y343q43697t98ht
-q178dig492hr9su7j0w9h5y3oqa6e9t
-q178dig492hr9su7j0w9h5y3oqa6e9t
-2y343q43697t98ht
-5y3w3q43gqw8dw9rdr49jjqw34
-5y3w3q43gqw8dw9rdr49jjqw534
-5y3w3q43gqw8dw9rdr49jjqw534
-5y3w3q43gqw8dw9rdr49jjqw534
-5y3w3q43gqw8dw9rdr49jr84w5g4qhdy
-5y3w3q43gqw8dw9rdr49jr84w5g4qhdy
+typedef struct node{
+    NODE *L;
+    NODE *R;
+    int data;
+} NODE; 
+The above code won't work as line 2 would give error 'NODE cannot be recognised'.
